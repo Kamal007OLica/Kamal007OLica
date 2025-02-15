@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kamal007OLica)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kamal007OLica)](https://github.com/Kamal007OLica/github-readme-stats)
 
 <!--
 **Kamal007OLica/Kamal007OLica** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

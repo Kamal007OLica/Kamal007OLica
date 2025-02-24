@@ -1,6 +1,6 @@
 ## Hey, Welcome! 👋
 
-# 📊 GitHub Stats:
+<h3> 📊 GitHub Stats: </h3>
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Kamal007OLica&theme=city_dark&hide_border=false)<br/>
 ![Visitor Count](https://profile-counter.glitch.me/{Kamal007OLica}/count.svg)

@@ -2,7 +2,7 @@
 
 Built & Building
 
-<img src="https://github.com/user-attachments/assets/382fc4bb-d8c2-4fa7-ae2c-051a2dcefe91" width="250">
+<img src="https://github.com/user-attachments/assets/382fc4bb-d8c2-4fa7-ae2c-051a2dcefe91" width="160">
 
 
  <!--

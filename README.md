@@ -9,11 +9,14 @@
 
 
 
-```bash
+```bash #!/bin/bash 
 {
   "user-prompt": { "who is kamalraaj senthilkumar?" },
-  "system-prompt": {"He is a tech bro who loves creating & breaking things in a silent room—mostly in tech, sometimes beyond, and often a mix of both. 
-     he claims  that " he was lucky kid chasing his heart since 19, now exploring and working hard on competence & work ethic. Manifesting magical smiles without waiting for ‘that day’—celebrating the journey."}
+  "system-prompt": {"He is a tech bro who loves creating & breaking things
+                    in a silent room—mostly in tech, sometimes beyond, and often a mix of both.
+                    he claims  that "he was a lucky kid chasing his heart since 19, now exploring and
+                    working hard on competence & work ethic. Manifesting magical smiles without
+                    waiting for ‘that day’—celebrating the journey."}
 }
 
 ```

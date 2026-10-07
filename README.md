@@ -28,19 +28,22 @@ keeping your screen-time promise something you do **with friends**.
 
 <br/>
 
-<img src="assets/products.png" alt="Licaverse, Uki AI, Build365" width="100%"/>
-
-<br/>
+<p>
+<a href="https://github.com/Kamal007OLica/Lica_AI-Learning-Assistant"><img src="assets/p-licaverse.png" alt="Licaverse, a learning OS" width="32.6%"/></a>
+<a href="https://github.com/Kamal007OLica/Uki_AI_UI_Auditor_FigmaPlugin"><img src="assets/p-uki.png" alt="Uki AI, a Figma plugin" width="32.6%"/></a>
+<a href="https://kamal007olica.github.io/email-assets./build365/"><img src="assets/p-build365.png" alt="Build365, a dev tool" width="32.6%"/></a>
+</p>
 
 <div align="center">
 <sub>
-<a href="https://github.com/Kamal007OLica/Lica_AI-Learning-Assistant">Licaverse</a> ·
-<a href="https://github.com/Kamal007OLica/Uki_AI_UI_Auditor_FigmaPlugin">Uki AI</a> ·
-Build365 ·
+also
 <a href="https://github.com/Kamal007OLica/W3share">W3Share</a> ·
-<a href="https://github.com/Kamal007OLica/Design-contribution">Penpot</a>
+<a href="https://github.com/Kamal007OLica/Design-contribution">Penpot contributions</a> ·
+<a href="https://github.com/Kamal007OLica/GHMC-Vechicle-routing">GHMC route optimisation</a>
 </sub>
 </div>
+
+<br/>
 
 <h3><code>&nbsp;03&nbsp;</code>&nbsp;&nbsp;Proof, not <i>personality</i></h3>
 

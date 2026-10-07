@@ -19,7 +19,7 @@ keeping your screen-time promise something you do **with friends**.
 <div align="center">
 
 [![Google Play](https://img.shields.io/badge/GET_IT_ON-GOOGLE_PLAY-00C700?style=for-the-badge&logo=google-play&logoColor=white&labelColor=0B0F0C)](https://play.google.com/store/apps/details?id=com.zenlauncher.zenmode&hl=en_IN)
-[![Demo](https://img.shields.io/badge/WATCH-THE_DEMO-E8B339?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0B0F0C)](https://youtu.be/48M1x2ryhpI)
+[![Demo](https://img.shields.io/badge/WATCH-THE_DEMO-E8B339?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0B0F0C)](https://youtu.be/XG9aPUdouB4)
 [![Stars](https://img.shields.io/github/stars/Kamal007OLica/zenmode?style=for-the-badge&label=STAR&labelColor=0B0F0C&color=3FD35B)](https://github.com/Kamal007OLica/zenmode)
 
 </div>

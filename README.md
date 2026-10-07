@@ -26,7 +26,11 @@ keeping your screen-time promise something you do **with friends**.
 
 <h3><code>&nbsp;02&nbsp;</code>&nbsp;&nbsp;Products I've <i>shipped</i></h3>
 
+<br/>
+
 <img src="assets/products.png" alt="Licaverse, Uki AI, Build365" width="100%"/>
+
+<br/>
 
 <div align="center">
 <sub>
@@ -41,10 +45,6 @@ Build365 ·
 <h3><code>&nbsp;03&nbsp;</code>&nbsp;&nbsp;Proof, not <i>personality</i></h3>
 
 <img src="assets/proof.svg" alt="1/359 Design Forge'25, 12 national recognitions, $205K credits, top 5 of 26,500+" width="100%"/>
-
-<h3><code>&nbsp;04&nbsp;</code>&nbsp;&nbsp;How I <i>work</i></h3>
-
-<img src="assets/craft.svg" alt="Roles and toolbox" width="100%"/>
 
 <div align="center">
 

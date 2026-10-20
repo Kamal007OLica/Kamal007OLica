@@ -63,6 +63,7 @@ also
 
 <div align="center">
 
+[![Website](https://img.shields.io/badge/WEBSITE-JUSTKAMALTHINGS.COM-FF6B4A?style=for-the-badge&logo=safari&logoColor=white&labelColor=0B0F0C)](https://www.justkamalthings.com/)
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-FOLIO_VOL._I-E8B339?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=0B0F0C)](https://kamal007olica.github.io/folio-book-3d/)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-KAMALRAAJ07-3FD35B?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0F0C)](https://linkedin.com/in/kamalraaj07)
 

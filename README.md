@@ -1,75 +1,18 @@
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-sm.png">
-  <img src="assets/hero.png" alt="Kamalraaj Senthilkumar, product designer" width="100%"/>
-</picture>
+### Hi, I'm Kamal 👋
 
-<a href="https://kamal007olica.github.io/folio-book-3d/">
+Product designer who likes to ship. I co-founded **[ZenMode OS](https://zenmodeos.com/)**, a home screen that helps you and your friends put the phone down, and I build small open-source tools on the side.
+
+<a href="https://www.justkamalthings.com/#oss">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/portfolio-sm.png">
-  <img src="assets/portfolio.svg" alt="Folio Vol. I, open the portfolio" width="100%"/>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/oss-dark-sm.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/oss-light-sm.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/oss-dark.svg">
+  <img src="assets/oss-light.svg" alt="Open source Love! Seven public projects drawn as transit lines: Design contributions, Uki AI, ZenMode OS, Night link cleaner, Obspec, Taste MCP and Mozhi, with 980 contributions since Feb 2025" width="100%">
 </picture>
 </a>
 
-<h3><code>&nbsp;01&nbsp;</code>&nbsp;&nbsp;What I'm <i>building</i></h3>
+Everything above is public. If one of them helps you, a ⭐ or an issue makes my day.
 
-<img src="assets/zenmode-banner.png" alt="ZenMode OS, quiet the noise together" width="100%"/>
+[justkamalthings.com](https://www.justkamalthings.com/) · [LinkedIn](https://linkedin.com/in/kamalraaj07) · [X](https://x.com/Kingkamal07) · kr07.work@gmail.com
 
-<div align="center">
-
-**ZenMode OS** turns your home screen into a calm space built around intent.
-It doesn't lock you out; it adds a pause where you tend to lose time, and makes
-keeping your screen-time promise something you do **with friends**.
-
-</div>
-
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/zen-features-sm.png">
-  <img src="assets/zen-features.svg" alt="Zen Score, Streaks, ZenCircle, Gold Invest" width="100%"/>
-</picture>
-
-<div align="center">
-
-[![Google Play](https://img.shields.io/badge/GET_IT_ON-GOOGLE_PLAY-00C700?style=for-the-badge&logo=google-play&logoColor=white&labelColor=0B0F0C)](https://play.google.com/store/apps/details?id=com.zenlauncher.zenmode&hl=en_IN)
-[![Demo](https://img.shields.io/badge/WATCH-THE_DEMO-E8B339?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0B0F0C)](https://youtu.be/XG9aPUdouB4)
-[![Stars](https://img.shields.io/github/stars/Kamal007OLica/zenmode?style=for-the-badge&label=STAR&labelColor=0B0F0C&color=3FD35B)](https://github.com/Kamal007OLica/zenmode)
-
-</div>
-
-<h3><code>&nbsp;02&nbsp;</code>&nbsp;&nbsp;Products I've <i>shipped</i></h3>
-
-<p align="center">
-<a href="https://github.com/Kamal007OLica/Lica_AI-Learning-Assistant"><img src="assets/p-licaverse.png" alt="Licaverse, a learning OS" width="262"/></a>
-<a href="https://github.com/Kamal007OLica/Uki_AI_UI_Auditor_FigmaPlugin"><img src="assets/p-uki.png" alt="Uki AI, a Figma plugin" width="262"/></a>
-<a href="https://kamal007olica.github.io/email-assets./build365/"><img src="assets/p-build365.png" alt="Build365, a dev tool" width="262"/></a>
-</p>
-
-<div align="center">
-<sub>
-also
-<a href="https://github.com/Kamal007OLica/W3share">W3Share</a> ·
-<a href="https://github.com/Kamal007OLica/Design-contribution">Penpot contributions</a> ·
-<a href="https://github.com/Kamal007OLica/GHMC-Vechicle-routing">GHMC route optimisation</a>
-</sub>
-</div>
-
-<br/>
-
-<h3><code>&nbsp;03&nbsp;</code>&nbsp;&nbsp;Proof, not <i>personality</i></h3>
-
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/proof-sm.png">
-  <img src="assets/proof.svg" alt="1/359 Design Forge'25, 12 national recognitions, $205K credits, top 5 of 26,500+" width="100%"/>
-</picture>
-
-<div align="center">
-
-[![Website](https://img.shields.io/badge/WEBSITE-JUSTKAMALTHINGS.COM-FF6B4A?style=for-the-badge&logo=safari&logoColor=white&labelColor=0B0F0C)](https://www.justkamalthings.com/)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-FOLIO_VOL._I-E8B339?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=0B0F0C)](https://kamal007olica.github.io/folio-book-3d/)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-KAMALRAAJ07-3FD35B?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0F0C)](https://linkedin.com/in/kamalraaj07)
-
-</div>
-
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/footer-sm.png">
-  <img src="assets/footer.png" alt="Designing useful order." width="100%"/>
-</picture>
+<sub>Thanks for stopping by 🌱</sub>

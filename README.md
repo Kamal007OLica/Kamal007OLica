@@ -1,6 +1,6 @@
 ### Hi, I'm Kamal 👋
 
-Product designer who likes to ship. I co-founded **[ZenMode OS](https://zenmodeos.com/)**, a home screen that helps you and your friends put the phone down, and I build small open-source tools on the side.
+x founder & Product designer who loves to ship. I co-founded **[ZenMode OS](https://zenmodeos.com/)**, a home screen that helps you and your friends put the phone down, and I build small open-source tools on the side.
 
 Before that, I founded **[Licaverse](https://www.justkamalthings.com/licaverse)**, an AI learning platform where an assistant called Lica made studying fun and a lot less stressful.
 

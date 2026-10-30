@@ -13,7 +13,7 @@ const out = process.argv[2] || here;
 const measure = (s, table, size, track = 0) => [...s].reduce((w, c) => w + (WID[table][c] ?? .6) * size + track, 0);
 
 /* the data, as on the portfolio (pulled from the GitHub API on 29 Oct 2026) */
-const START = Date.UTC(2025, 1, 2), WEEKS = 91, TOTAL = 980;
+const START = Date.UTC(2025, 1, 2), WEEKS = 91, TOTAL = 1007;  // since Feb 2024, from the portfolio index (30 Oct 2026)
 const HEAT = '00000014332223424433423324443443111141121214414341411111111321122211111111141111111111000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000310000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000001000000000000000000003300300000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000200000100000000000000000000000000000000130012000000010000001001012012102210000411104443400013134222123110443..';
 const LINES = [
   { key: 'pp', name: 'Design contributions', c: '#2fd9a8', logo: 'proof', chips: ['10 issues', '1 PR', '4 projects'], upstream: true,
@@ -201,8 +201,8 @@ function build(themeName, layoutName) {
   const ky = HY - 3, kx = XE + 10;
   const big = layoutName === 'sm' ? 30 : 36;
   const scale = [0, 1, 2, 3, 4].map((v, k) => `<rect x="${f1(kx + 34 + k * 13)}" y="${f1(ky + big + 30)}" width="10" height="10" rx="2" fill="${T.heat(HA[v])}"/>`).join('');
-  top.push(`<g class="fade" style="animation-delay:.9s"><text x="${kx}" y="${ky + big * .86}" class="big">${TOTAL}</text>` +
-    `<text x="${kx}" y="${f1(ky + big + 17)}" class="key">${layoutName === 'sm' ? 'contributions' : 'contributions since Feb 2025'}</text>` +
+  top.push(`<g class="fade" style="animation-delay:.9s"><text x="${kx}" y="${ky + big * .86}" class="big">${TOTAL.toLocaleString('en-GB')}</text>` +
+    `<text x="${kx}" y="${f1(ky + big + 17)}" class="key">${layoutName === 'sm' ? 'contributions' : 'contributions since Feb 2024'}</text>` +
     `<text x="${kx}" y="${f1(ky + big + 38.5)}" class="sc">less</text>${scale}<text x="${f1(kx + 34 + 5 * 13 + 3)}" y="${f1(ky + big + 38.5)}" class="sc">more</text></g>`);
 
   /* two ZenMode moments, pinned in the corner the lines leave empty */
@@ -259,7 +259,7 @@ function build(themeName, layoutName) {
   const hpx = (HY + 7 * CELL) / H;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${L.VW} ${f1(VH)}" width="${L.VW}" height="${f1(VH)}" role="img" aria-labelledby="t d">
 <title id="t">Open source Love!</title>
-<desc id="d">Seven open-source projects by Kamal007OLica drawn as transit lines leaving one trunk: Design contributions, Uki AI, ZenMode OS, Night link cleaner, Obspec, Taste MCP and Mozhi, over 980 contributions since February 2025.</desc>
+<desc id="d">Seven open-source projects by Kamal007OLica drawn as transit lines leaving one trunk: Design contributions, Uki AI, ZenMode OS, Night link cleaner, Obspec, Taste MCP and Mozhi, over 1,007 contributions since February 2024.</desc>
 <style>
 @font-face{font-family:'D';font-weight:500 800;src:url(${A.fDisplay}) format('woff2')}
 @font-face{font-family:'S';font-weight:400 600;src:url(${A.fSans}) format('woff2')}

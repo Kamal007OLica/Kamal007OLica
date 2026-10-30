@@ -35,8 +35,8 @@ const THEMES = {
 
 /* two layouts: the full map for desktop, and a taller, larger-type one for phones */
 const LAYOUTS = {
-  lg: { VW: 1240, HEAD: 150, PAD: 20, W: 1200, H: 560, X0: 40, XE: 862, TRUNK: 410, LANE0: 64, LANE: 50, XB0: 74, XBS: 92, SLOPE: 1, R: 16, HY: 452,
-        B: 34, NAME: 19, CHIPS: 4, SNAPS: true, ORGS: true, TITLE: 76, BLURB: true, MO: 11 },
+  lg: { VW: 1240, HEAD: 96, PAD: 20, W: 1200, H: 560, X0: 40, XE: 862, TRUNK: 410, LANE0: 64, LANE: 50, XB0: 74, XBS: 92, SLOPE: 1, R: 16, HY: 452,
+        B: 34, NAME: 19, CHIPS: 4, SNAPS: true, ORGS: true, TITLE: 48, BLURB: true, MO: 11 },
   sm: { VW: 640, HEAD: 118, PAD: 14, W: 612, H: 446, X0: 16, XE: 380, TRUNK: 330, LANE0: 34, LANE: 42, XB0: 30, XBS: 32, SLOPE: 2.1, R: 12, HY: 368,
         B: 30, NAME: 19, CHIPS: 0, SNAPS: false, ORGS: false, TITLE: 54, BLURB: false, MO: 13 }
 };
@@ -238,7 +238,7 @@ function build(themeName, layoutName) {
   }
 
   /* the header: kicker, title with its drawn heart, and the blurb */
-  const TS = L.TITLE, tY = layoutName === 'sm' ? 96 : 116;
+  const TS = L.TITLE, tY = layoutName === 'sm' ? 96 : 76;
   const tw = measure('Open source Love', 'display800', TS, -.045 * TS);
   const bw = measure('!', 'display800', TS, -.045 * TS);
   const hw = TS * .86, hh = hw * 66 / 72, hx2 = MX - 2 + tw + bw + TS * .14, hy2 = tY - TS * .82;
@@ -252,8 +252,8 @@ function build(themeName, layoutName) {
     `<path d="M11 14c1.6-4 5.2-6 9-5.4" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" opacity=".85"/></svg></g></g>`
   ];
   if (L.BLURB) {
-    const blurb = ['Seven lines, all public. Each tick', 'is a commit or an issue, each logo a', 'project I filed into. A little train', 'rides every line, one at a time.'];
-    head.push(`<g class="fade" style="animation-delay:.2s">${blurb.map((t, k) => `<text x="${L.VW - MX - 36 * 8.4}" y="${42 + k * 23}" class="blurb">${esc(t)}</text>`).join('')}</g>`);
+    const blurb = ['Seven lines, all public. Each tick is a commit', 'or an issue, each logo a project I filed into.', 'A little train rides every line, one at a time.'];
+    head.push(`<g class="fade" style="animation-delay:.2s">${blurb.map((t, k) => `<text x="${L.VW - MX - 48 * 7.2}" y="${34 + k * 19}" class="blurb">${esc(t)}</text>`).join('')}</g>`);
   }
 
   const hpx = (HY + 7 * CELL) / H;
@@ -268,7 +268,7 @@ text{font-family:'S',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
 .title{font:800 ${TS}px 'D',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:-.045em;fill:${T.ink}}
 .kick{font:500 ${layoutName === 'sm' ? 15 : 13}px 'M',ui-monospace,Menlo,monospace;letter-spacing:.12em;fill:${T.ink2}}
 .kd-o{fill:none;stroke:${T.line2};stroke-width:1.5}
-.blurb{font:400 14px 'M',ui-monospace,Menlo,monospace;fill:${T.ink2}}
+.blurb{font:400 12px 'M',ui-monospace,Menlo,monospace;fill:${T.ink2}}
 .mo{font:500 ${L.MO}px 'M',ui-monospace,Menlo,monospace;fill:${T.muted}}
 .tk-case{fill:none;stroke:${T.edge};stroke-width:12;stroke-linecap:round}
 .tk-core{fill:none;stroke:${T.sheet};stroke-width:7.5;stroke-linecap:round}
@@ -336,7 +336,8 @@ ${trains.join('\n')}
 </svg>`;
 }
 
-for (const t of Object.keys(THEMES)) for (const l of Object.keys(LAYOUTS)) {
+/* the README shows only the desktop layout: GitHub's theme switcher ignores width queries, so the phone layout stays opt-in */
+for (const t of Object.keys(THEMES)) for (const l of process.argv.includes('--sm') ? Object.keys(LAYOUTS) : ['lg']) {
   const file = path.join(out, `oss-${t}${l === 'sm' ? '-sm' : ''}.svg`);
   fs.writeFileSync(file, build(t, l));
   console.log(file, (fs.statSync(file).size / 1024).toFixed(0) + ' KB');

@@ -6,8 +6,6 @@ Before that, I founded **[Licaverse](https://www.justkamalthings.com/licaverse)*
 
 <a href="https://www.justkamalthings.com/#oss">
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/oss-dark-sm.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/oss-light-sm.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/oss-dark.svg">
   <img src="assets/oss-light.svg" alt="Open source Love! Seven public projects drawn as transit lines: Design contributions, Uki AI, ZenMode OS, Night link cleaner, Obspec, Taste MCP and Mozhi, with 980 contributions since Feb 2025" width="100%">
 </picture>

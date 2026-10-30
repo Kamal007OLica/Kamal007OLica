@@ -12,7 +12,3 @@ Before that, I founded **[Licaverse](https://www.justkamalthings.com/licaverse)*
 </a>
 
 Everything above is public. If one of them helps you, a ⭐ or an issue makes my day.
-
-[justkamalthings.com](https://www.justkamalthings.com/) · [LinkedIn](https://linkedin.com/in/kamalraaj07) · [X](https://x.com/Kingkamal07) · kr07.work@gmail.com
-
-<sub>Thanks for stopping by 🌱</sub>
